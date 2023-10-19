@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 600px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(157, 173, 187, 0.3);
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: rgba(22, 24, 24, 0.619);
+}
+.item-2 , .item-3{
+    padding: 0.75rem;
+}
+.item-2 p-2{
+    color: rgba(188, 3, 3, 0.774);
+}
+.item-3 p-2{
+    color: rgba(188, 3, 3, 0.774);
+
+}
+button{
+    background-color: rgba(246, 242, 242, 0.305);
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
